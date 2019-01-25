@@ -13,7 +13,7 @@ endif (WIN32)
 ExternalProject_Add(
     depot-tools
 
-    GIT_REPOSITORY https://chromium.googlesource.com/chromium/tools/depot_tools
+    GIT_REPOSITORY https://chromium.googlesource.com/chromium/tools/depot_tools.git
 
     PREFIX ${CMAKE_BINARY_DIR}/depot_tools
 
