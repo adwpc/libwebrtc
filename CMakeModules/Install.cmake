@@ -7,11 +7,11 @@ install(FILES ${_LIBRARY_FILES}
         DESTINATION ${INSTALL_LIB_DIR}
         COMPONENT lib)
 
+message(STATUS "Install headers=============================")
 #
 # Install headers
-install(DIRECTORY "${CMAKE_BINARY_DIR}/include/"
+install(DIRECTORY "${CMAKE_BINARY_DIR}/webrtc/src/"
         DESTINATION ${INSTALL_INCLUDE_DIR}
-        COMPONENT include
         FILES_MATCHING PATTERN "*.h")
 
 #

@@ -131,6 +131,7 @@ if (BUILD_SAMPLE)
   )
 endif (BUILD_SAMPLE)
 
+message(STATUS "include(Install)=====================")
 include(Install)
 include(Package)
 
